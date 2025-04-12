@@ -30,6 +30,12 @@
     "128": "icon128.png"
   },
 
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "{344e6ebd-84a3-422d-8460-b954d1bc6bf8}"
+    }
+  },
+
   "web_accessible_resources": [
     {
       "resources": ["fonts/*"],
