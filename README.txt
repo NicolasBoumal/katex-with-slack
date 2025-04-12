@@ -17,7 +17,7 @@ Display math:
 \[ .. \]
 $$$ .. $$$
 
-Alternatively, in the options of the Chrome extension one can also choose to work with the usual LaTeX delimiters:
+Alternatively, in the options of the extension one can also choose to work with the usual LaTeX delimiters:
 
 Inline math:
 \( .. \)
@@ -26,15 +26,18 @@ $ .. $
 Display math:
 \[ .. \]
 $$ .. $$
+$$$ .. $$$
 
 
-Newline:
-\newline
+
+Newlines in formulas can be inserted with \newline. Double backslash \\ is ignored.
 
 Blackboard bold letter shorthands:
-\R is short for \mathbb{R}
 \N is short for \mathbb{N}
+\R is short for \mathbb{R}
 \Z is short for \mathbb{Z}
+for more built-in shorthands, see
+https://github.com/KaTeX/KaTeX/blob/main/src/macros.js
 
 
 Downloads:
@@ -56,19 +59,15 @@ Sometimes Slack does something funny to double space "  " making the plugin unab
 that contains it, like $$\R  $$.
 
 
+Plugin by Sophie Huiberts and Bento Natura (2019-2022).
+Option to choose $/$$/$$$ delimiters added by Nicolas Boumal (2020).
 
-Plugin by Sophie Huiberts and Bento Natura (2019).
 Licenced under the MIT licence.
 
-Option to choose $/$$/$$$ delimiters in Chrome added by Nicolas Boumal (2020).
 
-katex.js is taken straight from the KaTeX project, from the url
-https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.js
-as indicated by
-https://katex.org/docs/browser.html
-
-auto-render.js is adapted from the KaTeX project:
-https://github.com/KaTeX/KaTeX/blob/master/contrib/auto-render/auto-render.js
+katex.js, katex.css and auto-render.js and the contents of the fonts directory
+are taken straight from the KaTeX project, from the v0.16.2 tarbal available at
+https://github.com/KaTeX/KaTeX/releases
 
 This plugin is not associated with the KaTeX project
 nor with Slack or Slack Technologies, Inc.
